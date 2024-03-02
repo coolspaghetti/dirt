@@ -1,0 +1,181 @@
+/* general */
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+a {
+    font-weight: bold
+}
+
+/* header */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0px;
+}
+
+.about-button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+/* game */
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px; 
+}
+
+.character-container {
+    width: 315px;
+    height: auto;
+    position: relative;
+    margin-left: 120px;
+}
+
+.character-container img.base, 
+.character-container #selected-shirt, 
+.character-container #selected-pants,
+.character-container #selected-jackets,
+.character-container #selected-others{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shirt-container {
+    width: 60%;
+    margin-right: 75px;
+    margin-top: 80px;
+    border: 2px #004d40 solid;
+    padding: 10px 15px 10px 5px;
+}
+
+.shirt-header {
+    background-color: #004d40;
+    width: 150px;
+    height: 15px;
+    position: absolute;
+    top: 70px;
+    left: 507px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 13px;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 5px
+}
+
+.shirts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); 
+    gap: 8px;
+    justify-items: center;
+}
+
+.shirt, .jackets, .others, .pants {
+    width: 140px; 
+    cursor: pointer;
+    position: relative;
+}
+
+#selected-base { 
+    z-index: 1; 
+}
+
+#selected-pants { 
+    z-index: 2; 
+}
+
+#selected-shirt { 
+    z-index: 3; 
+}
+
+#selected-jackets { 
+    z-index: 4; 
+}
+
+#selected-others { 
+    z-index: 5; 
+}
+
+
+.item-container {
+    width: 60%;
+    margin-right: 150px;
+    margin-top: 30px;
+    border: 2px #004d40 solid;
+    padding: 10px 15px 10px 5px;
+    position: relative;
+    left: 499px;
+}
+
+.pants-container {
+    position: relative;
+    top: 0px
+}
+
+.item-header {
+    background-color: #004d40;
+    width: 150px;
+    height: 15px;
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: 13px;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 5px;
+    left: 507px;
+    margin-top: 10px;
+}
+
+/* landing */
+.welcome-picture {
+    width: 600px;   
+}
+
+.start-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.enter-button {
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: 1000;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #004d40;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* about */
+.back-button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h3 {
+    color: #004d40
+}
+
+a {
+    color: #004d40
+}
