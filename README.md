@@ -16,4 +16,4 @@ it's only intended for fullscreen at the moment (will work on that in the future
 
 
 ## current issues
-  none, everything works so far
+- some art kind of clips or is not adjusted to the others
