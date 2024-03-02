@@ -11,7 +11,7 @@ it's only intended for fullscreen at the moment (will work on that in the future
 - 'add dirt' button
 - better responsiveness
 - more artwork (more choices)
-- maybe make windows with choices extendable
+- maybe make windows with choices expand
 - "loading screen" mimic
 
 
